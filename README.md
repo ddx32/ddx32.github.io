@@ -1,2 +1,2 @@
 # ddx32.github.io
-My personal site
+This is my personal site. It's all about me.
