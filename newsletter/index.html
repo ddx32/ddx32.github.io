@@ -225,7 +225,7 @@
 			.bodyContent div{
 				/*@editable*/ color:#505050;
 				/*@editable*/ font-family:Arial;
-				/*@editable*/ font-size:14px;
+				/*@editable*/ font-size:17px;
 				/*@editable*/ line-height:150%;
 				/*@editable*/ text-align:left;
 			}
@@ -447,6 +447,10 @@
 			#monkeyRewards img{
 				max-width:190px;
 			}
+
+			ul li {
+				padding: 5px 0;
+			}
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -464,13 +468,13 @@
                                     	<tr>
                                         	<td valign="top">
                                             	<div mc:edit="std_preheader_content">
-                                                	 Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.
+                                                	 Výrazné slevy na opravy vozů Hyundai nyní v Auto Rupexim.
                                                 </div>
                                             </td>
                                             <!-- *|IFNOT:ARCHIVE_PAGE|* -->
 											<td valign="top" width="190">
                                             	<div mc:edit="std_preheader_links">
-                                                	Is this email not displaying correctly?<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+                                                	Nezobrazuje se Vám zpráva správně?<br /><a href="*|ARCHIVE|*" target="_blank">Otevřete si ji v prohlížeči</a>.
                                                 </div>
                                             </td>
 											<!-- *|END:IF|* -->
@@ -515,10 +519,18 @@
                                                     <tr>
                                                         <td valign="top">
                                                             <div mc:edit="std_content00">
-                                                                <h1 class="h1">U nás nyní opravíte vozy Hyundai s až xx% slevou</h1>
+                                                                <h1 class="h1">U nás nyní opravíte vozy Hyundai s výraznou slevou</h1>
                                                                 <h4 class="h4">Bez ztráty 5leté záruky výrobce</h4>
-                                                                Připravili jsme pro Vás akci na... Můžete se těšit například na tyto... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet fringilla felis. Integer ornare ante non nibh maximus gravida. Cras viverra fringilla tristique.
+                                                                <p>Vážení zákazníci,</p>
+                                                                <p>Připravili jsme pro Vás akci na <strong>kompletní sortiment náhradních dílů</strong> na vozy Hyundai. Můžete se těšit například na levnější filtry, brzdy, baterie, spojky, tlumiče, svíčky, či podvozkové části.</p>
+
+                                                                <ul>
+                                                                	<li>Jsme certifikovaný servis oprávněný provádět veškeré opravy a údržbu i na vozidlech značky Hyundai bez ztráty záruky.</li>
+                                                                	<li>Provádíme i pravidelné inspekční prohlídky</li>
+                                                                	<li>Většinu náhradních dílů máme skladem?</li>
+                                                                </ul>
                                                             </div>
+                                                            <a href="http://rupexim.cz/"><img src="graphic.png" alt="vuz Hyundai i30" mc:label="image" mc:edit="tiwc200_image00g">
 														</td>
                                                     </tr>
                                                 </table>
@@ -526,6 +538,27 @@
 
                                             </td>
                                         </tr>
+
+                                        <tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00">
+                                                                <h2 class="h2">Příklady oprav</h2>
+                                                                
+                                                            </div>
+                                                            
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+
+                                            </td>
+                                        </tr>
+
                                     	<tr>
                                         	<td valign="top" width="180" class="leftColumnContent">
 
@@ -533,13 +566,13 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="desticky.jpg" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
+                                                            <img src="kotouc.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
                                                             <div mc:edit="tiwc200_content00">
- 	                                                           <h3 class="h3">Brzdové destičky</h3>
-                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">3 900,-</span>
-                                                               <strike style="text-decoration: line-through;">4 300,-</strike>
+ 	                                                           <h3 class="h3">Brzdový kotouč</h3>
+                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">1.189,-</span>
+                                                               <strike style="text-decoration: line-through;">2.408,-</strike>
                                                                <br />
-                                                               Brzdové destičky je nutné měnit jednou za... a nebo za...
+                                                               Hyundai i30 r.v. 2007/ix20
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -553,13 +586,13 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="oil.jpg" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
+                                                            <img src="dest.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
                                                             <div mc:edit="tiwc200_content00">
- 	                                                           <h3 class="h3">Výměna oleje</h3>
-                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">3 900,-</span>
-                                                               <strike style="text-decoration: line-through;">4 300,-</strike>
+ 	                                                           <h3 class="h3">Sada destiček</h3>
+                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">1.113,-</span>
+                                                               <strike style="text-decoration: line-through;">2.582,-</strike>
                                                                <br />
-                                                               Brzdové destičky je nutné měnit jednou za... a nebo za...
+                                                               Sada brzdových destiček, Hyundai i30 r.v. 2007
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -573,13 +606,13 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="discs.jpg" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
+                                                            <img src="filter.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image00" />
                                                             <div mc:edit="tiwc200_content00">
- 	                                                           <h3 class="h3">Brzdové kotouče</h3>
-                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">3 900,-</span>
-                                                               <strike style="text-decoration: line-through;">4 300,-</strike>
+ 	                                                           <h3 class="h3">Vzduchový filtr</h3>
+                                                               <span style="color: #0d4865; font-weight: bold; font-size: 17px">331,-</span>
+                                                               <strike style="text-decoration: line-through;">593,-</strike>
                                                                <br />
-                                                               Brzdové destičky je nutné měnit jednou za... a nebo za...
+                                                               Vzduchový filtr pro Hyundai i30 r.v. 2007
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -588,6 +621,48 @@
 
                                             </td>
                                         </tr>
+
+                                        <tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="#0a4066">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00">
+                                                                <h2 class="h2"><a href="http://www.rupexim.cz/cz/clanek/objednani-servisu" style="color: #ffa100; text-decoration: none; display: block; text-align: center; padding-top: 8px;">Objednejte se do servisu online &raquo;</a></h2>
+                                                                
+                                                            </div>
+                                                            
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00" style="text-align: center;">
+                                                                <a href="https://www.facebook.com/rupexim"><img src="fb.png"></a>
+                                                                <a href="https://plus.google.com/+AutoRupeximVestec/"><img src="gplus.png"></a>
+                                                                <a href="https://www.youtube.com/channel/UCtVSQbNUWDwTs-7HBDg1ndQ"><img src="yt.png"></a>
+                                                            </div>
+                                                            
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+
+                                            </td>
+                                        </tr>
+
                                     </table>
                                     <!-- // End Template Body \\ -->
                                 </td>
@@ -601,22 +676,15 @@
 
                                                 <!-- // Begin Module: Standard Footer \\ -->
                                                 <table border="0" cellpadding="10" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td colspan="2" valign="middle" id="social">
-                                                            <div mc:edit="std_social">
-                                                                &nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
-                                                            </div>
-                                                        </td>
-                                                    </tr>
+                                                    
                                                     <tr>
                                                         <td valign="top" width="350">
                                                             <div mc:edit="std_footer">
-																<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+																<em>&copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*.</em>
 																<br />
 																*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
 																<br />
-																<strong>Our mailing address is:</strong>
-																<br />
+																
 																*|HTML:LIST_ADDRESS_HTML|**|END:IF|*
                                                             </div>
                                                         </td>
@@ -629,7 +697,7 @@
                                                     <tr>
                                                         <td colspan="2" valign="middle" id="utility">
                                                             <div mc:edit="std_utility">
-                                                                &nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                                                &nbsp;<a href="*|UNSUB|*">odebrat mě ze seznamu příjemců</a> | <a href="*|UPDATE_PROFILE|*">nastavení těchto emailů</a>&nbsp;
                                                             </div>
                                                         </td>
                                                     </tr>
